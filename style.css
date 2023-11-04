@@ -1,0 +1,76 @@
+html,
+body {
+  background-color: powderblue;
+}
+/*
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.topdiv,
+.topmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+#conversion-sections {
+  color: red;
+}
+
+fieldset {
+  width: 300px;
+  height: 150px;
+  padding: 5px;
+}
+
+legend {
+  color: green;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: 2px solid green;
+}
+
+#temperature,
+#weight,
+#distance {
+  color: blue;
+  font-weight: bold;
+}
+
+aside {
+  font-family: cursive;
+  font-size: 12px;
+}
+
+.footer-page {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: cursive;
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Conversions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <section>
+
+      <header class="heading"><b>Unit Conversions</b></header>
+
+      <nav>
+        <div class="topdiv">
+        <!--button for redirecting users to the temperature section-->
+        <a href="#temperature" class="topmenu"><button>Temperature</button></a>
+        <a href="#weight" class="topmenu"><button>Weight</button></a>
+        <a href="#distance" class="topmenu"><button>Distance</button></a>
+        </div>
+      </nav>
+      </section>
+
+      <div class="main-content">
+        <section>
+          <!-- temperature conversion section-->
+          <div id="tmp">
+            <figure>
+              <img
+                src="https://img.freepik.com/free-vector/thermometers-hot-cold_78370-2406.jpg?w=740&t=st=1699038207~exp=1699038807~hmac=650f7fda89c191c0565df50fc8c6e67747583f6c7e858a4ba54697812eb582ec"
+                width="150px"
+              /> <br />
+              <figcaption>Celcius to Fahrenheit Conversion</figcaption>
+              <!-- figure and caption will come here-->
+            </figure>
+
+            <article>
+              <!-- this contains elements for temperature conversion-->
+              <fieldset>
+                <legend>Temperature</legend>
+                <!-- fields and button for temperature input will come here-->
+
+                <!-- label for temperature input-->
+                <label for="Temperature">Celcius</label><br />
+                <input type="number" id="celcius" placeholder="Enter Celcius" /><br />
+
+                <!-- conversion button-->
+                <button id="temperature" onclick="temperature()">Convert</button><br />
+
+                <!-- label for temperture output-->
+                <input type="number" id="fahrenheit" placeholder="Fahrenheit" /><br />
+                <label for="Temperature">Fahrenheit</label>
+              </fieldset>
+
+              <br />
+            <aside>
+              To convert celcius to fahrenheit yourself, use this formula
+              replacing 'CelciusTemp' with your temperature in celcius: (CelciusTemp * 9/5 + 32)
+            </aside>
+          </div>
+        </section>
+
+        <br />
+        <hr />
+        <br />
+        <section>
+          <!-- weight conversion section-->
+
+          <div>
+            <figure>
+              <img
+                src="https://cdn.imgbin.com/20/14/22/imgbin-measuring-scales-weight-bascule-kilogram-spring-scale-digital-electronic-products-8KDW0DvSbSgtuPpztUW4jqJsz.jpg"
+                width="150px"
+              /> <br />
+              <figcaption>Kilogram to Pounds Conversion</figcaption>
+              <!-- figure and caption will come here-->
+            </figure>
+
+            <article>
+              <!-- this contains elements for temperature conversion-->
+              <fieldset>
+                <legend>Weight</legend>
+                <!-- fields and button for weight input will come here-->
+
+                <!-- label for weight input-->
+                <label for="Weight">Kilograms</label><br />
+                <input type="number" id="kilo" placeholder="Enter kilograms" /><br />
+
+                <!-- conversion button-->
+                <button id="weight" onclick="weight()">Convert</button><br />
+
+                <!-- label for weight output-->
+                <input type="number" id="pounds" placeholder="Pounds" /><br />
+                <label for="weight">Pounds</label>
+              </fieldset>
+            </article>
+            <br />
+            <aside>
+              To convert kilograms to pounds yourself, use this formula
+              replacing 'kg' with your weight in kilogram: kg * 2.205
+            </aside>
+          </div>
+        </section>
+
+        <br />
+        <hr />
+        <br />
+
+
+        <section>
+          <!-- distance conversion section-->
+
+          <div>
+            <figure>
+              <img
+                src="https://th.bing.com/th/id/OIP.z6tJHTuRpI0XfZ-bN_uyrwHaJ4?pid=ImgDet&rs=1"
+                width="100px"
+              />  <br />
+              <figcaption>Kilometer to Mile Conversion</figcaption>
+              <!-- figure and caption will come here-->
+            </figure>
+
+            <article>
+              <!-- this contains elements for distance conversion-->
+              <fieldset>
+                <legend>Distance</legend>
+
+
+                <!-- label for distance input-->
+                <label for="Distance">Kilometers</label><br />
+                <input type="number" id="km" placeholder="Enter Kilometers"/><br />
+
+                <!-- conversion button-->
+                <button id="distance" onclick="distance()">Convert</button><br />
+
+                <!-- label for distance output-->
+                <input type="number" id="miles" placeholder="Miles" /><br />
+                <label for="Distance">Miles</label>
+              </fieldset>
+            </article>
+            <br />
+            <aside>
+              To convert kilometers to miles yourself, use this formula
+              replacing 'km' with your distance in kilometers: km &divide; 1.609
+            </aside>
+          </div>
+        </section>
+
+      </div>
+
+<br />
+<div id="go-home" class="iconbutton">
+
+  <a href="#home">
+    <img src="https://clipground.com/images/white-home-icon-transparent-png-6.png" width="25px">
+  </a>
+  <br /><br />
+  <footer class="footer-page">Learn more about HTML as a part of the IBM Fullstack Developer Certification
+  </footer>
+</div>
+
+  </body>
+</html>
